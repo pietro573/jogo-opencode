@@ -1,0 +1,57 @@
+{
+  "id": "./",
+  "name": "Adivinha o Meu Número — Carnaval",
+  "short_name": "Adivinha!",
+  "description": "Jogo de carnaval: adivinhe o número de 1 a 10 escrito no papel pelo vendedor e ganhe prêmios. Funciona offline.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#14021f",
+  "theme_color": "#14021f",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Jogar agora",
+      "short_name": "Jogar",
+      "description": "Começa uma nova rodada no tabuleiro",
+      "url": "./?jogar=1",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
